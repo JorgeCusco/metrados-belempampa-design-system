@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"/>
+<link rel="stylesheet" href="../colors_and_type.css"/>
+<style>html,body{margin:0;background:#f3f4f6}
+.card{padding:20px 24px;font-family:var(--font-sans);display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.field{display:flex;flex-direction:column;gap:4px}
+.l{font-size:10px;font-weight:900;color:#64748b;text-transform:uppercase;letter-spacing:.08em;padding-left:4px}
+.input{padding:8px 12px;border:1px solid #e2e8f0;border-radius:12px;font-size:12px;font-weight:700;color:#334155;background:#fff;outline:none}
+.input.focus{border-color:#3b82f6;box-shadow:0 0 0 4px #eff6ff}
+.sel{padding:8px 12px;border:1px solid #e2e8f0;border-radius:12px;font-size:12px;font-weight:700;color:#1e293b;background:#fff;display:flex;justify-content:space-between;align-items:center}
+.chev{color:#94a3b8}
+</style></head><body>
+<div class="card">
+  <div class="field"><label class="l">Especialidad (Filtro OE)</label><div class="sel">ESTRUCTURAS<span class="chev">▾</span></div></div>
+  <div class="field"><label class="l">Partida (Buscador)</label><input class="input focus" value="Concreto en vigas f'c=210"/></div>
+  <div class="field"><label class="l">Elemento / Agrupador</label><input class="input" value="VIGA BV-206 EJES 1-4"/></div>
+  <div class="field"><label class="l" style="color:#2563eb">↳ Detalle Específico</label><input class="input" style="border-left:4px solid #3b82f6;border-left-color:#3b82f6" value="Acero longitudinal 5/8''" placeholder="Mat. / Esp. / Actividad..."/></div>
+</div></body></html>
